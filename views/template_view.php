@@ -17,6 +17,7 @@
     </div>
     <div id="navigation">
         <a href="?page=reсipes">Рецепты</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="?page=main">На главную</a>&nbsp;&nbsp;&nbsp;&nbsp;
     </div>
     <div class="page-container">
         <?php include 'views/'.$content_view; ?>

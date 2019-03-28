@@ -8,9 +8,9 @@ class View
         $this->model = $model;
     } */
     
-    public $template_view;
+    /* public $template_view;
     
     public function output($content_view, $template_view, $data = null){
         include 'views/'.$template_view;
-    }
+    } */
 }

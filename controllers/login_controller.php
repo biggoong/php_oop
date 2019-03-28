@@ -3,7 +3,7 @@ class controllerLogin extends Controller
 {
     public function actionIndex()
     {
-        $this->view->output('login_view.php', 'template_view.php');
+        $this->output('login_view.php', 'template_view.php');
     }
     public function login($request)
     {

@@ -3,7 +3,7 @@ class controllerRegistration extends Controller
 {
     public function actionindex()
     {
-        $this->view->output('registration_view.php', 'template_view.php');
+        $this->output('registration_view.php', 'template_view.php');
     }
     public function reg($request)
     {

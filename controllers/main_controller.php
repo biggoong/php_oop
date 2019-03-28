@@ -3,6 +3,12 @@ class controllerMain extends Controller
 {
     public function actionIndex()
     {
-        $this->view->output('main_view.php', 'template_view.php');
+        $this->output('main_view.php', 'template_view.php');
+    }
+    public function logout()
+    {
+	    $_SESSION = [];
+	    setcookie('token', '', time()+1);
+	    header('Location: ?page=login');
     }
 }
