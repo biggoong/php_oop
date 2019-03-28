@@ -1,6 +1,15 @@
 <form method="POST" action="?action=reg">
-    <input name="login" /><br/>
-    <input type="password" name="password" /><br/>
-    <input type="password" name="password_confirm" /><br/>
-    <input type="submit" value="Зарегестрировать" />
+    <div class="form-group">
+        <label>Логин</label>
+        <input name="login" />
+    </div>
+    <div class="form-group">
+        <label>Пароль</label>
+        <input type="password" name="password" />
+    </div>
+    <div class="form-group">
+        <label>Повторите пароль</label>
+        <input type="password" name="password_confirm" /><br/>
+    </div>
+    <button class="btn btn-primary" type="submit">Зарегестрировать</button>
 </form>
